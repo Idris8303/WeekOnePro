@@ -1,0 +1,22 @@
+
+
+main{
+  background-color: rgba(242, 241, 233, 1.0);
+  padding: 20px;
+}
+body{
+  margin: 0 auto;font-family: 'Merriweather',serif;
+
+}
+
+
+header{
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
+}
+
+#newsGallery{
+  background-image: url('./images/background-2.jpg');
+  width: 100%;
+}

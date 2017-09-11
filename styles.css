@@ -1,43 +1,114 @@
 
+main{
+background-color: rgba(242, 241, 233, 1.0);
+padding: 20px;
+}
+
 body{
-  background-color: #F2F1E8;
-}
-
-
-
-
-
-font-family: 'Roboto', sans-serif;
-font-family: 'Lora', serif;
-
-
-
-
-
-#site_header{
-    background-color: white;
-    padding: 0;
-    display: flex;
-
-
+  margin: 0 auto;font-family: 'Merriweather',serif;
 
 }
-nav{
-  background-color: white;
-  padding: 0;
-  margin: 0 auto;
+
+
+header{
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  padding: 10px;
 }
 
+#logo{
+  background-image: url('./images/bent-creek-logo.png');
+  background-size: 100%;
+  width: 50px;
+  height: 50px;
+}
+#nav{
+  display:flex;
+  margin: 10px auto;
 
+}
+#nav li{
+  list-style: none;
+  padding-right: 40px;
+  font-size: 20px;
+  text-transform: uppercase;
 
+}
 
+#nav a{
+  color: rgba(0, 0, 33, 1.0);
+}
+#Page-title{
+  text-align: center;
+}
 
-#main_nav a{
-    padding: 5px 30px;
-    color: rgba(19, 21, 17, 1.0);
-    font-family: sans-serif;
-    font-size: 20px;
-    text-align: center;
-    display: inline-block;
+#Page-title h1{
+  margin: 0;
+}
+#image-1, #image-2, #image-3{
+  height: 400px;
+  margin: 10px;
+  background-size: cover;
+  position: relative;
+}
 
-  }
+#image-1{
+  background-image: url('./images/product-1.jpg');
+  width: 60%;
+}
+#image-2{
+  background-image: url('./images/product-2.jpg');
+  width: 20%;
+}
+#image-3{
+  background-image: url('./images/product-3.jpg');
+  width:20%;
+}
+
+#top-gallery,#bottom-gallery{
+  display: flex;
+}
+
+#image-4{
+  background-image: url('./images/product-4.jpg');
+  width: 20%;
+}
+#image-5{
+  background-image: url('./images/product-5.jpg');
+  width: 20%;
+}
+#image-6{
+  background-image: url('./images/product-6.jpg');
+  width: 40%;
+}
+#image-7{
+  background-image: url('./images/product-7.jpg');
+  width: 20%;
+}
+#image-4, #image-5, #image-6, #image-7{
+  height: 240px;
+  margin: 10px;
+  background-size: cover;
+  position: relative;
+}
+#gallery p{
+  background-color: rgba(44, 47, 39, 1.0);
+  position: absolute;
+  bottom: 0;
+  padding: 10px;
+  colorrgba(242, 241, 233, 1.0);
+}
+#newspage.body.main{
+    background-image: url('./images/background-2.jpg');
+    width: 100%;
+
+}
+
+footer{
+  background-color: rgba(44, 47, 39, 1.0);
+  padding: 40px;
+  color:rgba(242, 241, 233, 1.0);
+}
+footer p{
+  margin: 0;
+}
